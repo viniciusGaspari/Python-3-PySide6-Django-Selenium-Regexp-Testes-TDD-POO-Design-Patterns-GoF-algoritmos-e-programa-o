@@ -1,0 +1,1 @@
+print('Verdadeiro' if 5 > 6 else 'Falso')

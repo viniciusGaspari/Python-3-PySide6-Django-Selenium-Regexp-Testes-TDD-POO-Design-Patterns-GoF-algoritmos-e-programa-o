@@ -1,3 +1,5 @@
+from operator import contains
+
 lista = [10, 20, 30, 40]
 
 del lista[2]
@@ -12,6 +14,4 @@ lista.insert(7, 200)
 lista.insert(6, 600)
 print(lista)
 lista.clear()
-print(lista)
-lista.extend(20)
 print(lista)
